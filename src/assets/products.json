@@ -1,0 +1,37 @@
+[
+  {
+    "sku": "SNS0001",
+    "name": "Product One",
+    "price": 12,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mollis, leo vel imperdiet porttitor, lectus justo posuere est, in eleifend massa sapien quis lectus. Praesent condimentum ornare tellus, in consequat.",
+    "image": "sns0001.png"
+  },
+  {
+    "sku": "SNS0002",
+    "name": "Product Two",
+    "price": 22,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin cursus ut lorem ut convallis. Duis hendrerit ut leo quis fermentum. Proin mollis sem sed augue hendrerit suscipit. Vestibulum suscipit sem.",
+    "image": "sns0002.png"
+  },
+  {
+    "sku": "SNS0003",
+    "name": "Product Three",
+    "price": 10,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet laoreet neque, bibendum maximus elit. Proin elementum dignissim maximus. Nulla eu rhoncus est. Proin pretium neque nunc, vel egestas.",
+    "image": "sns0003.png"
+  },
+  {
+    "sku": "SNS0004",
+    "name": "Product Four",
+    "price": 32,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet turpis sit amet ante imperdiet, non consectetur dui malesuada. Suspendisse non malesuada lorem. Curabitur congue volutpat tincidunt. Etiam varius, felis.",
+    "image": "sns0004.png"
+  },
+  {
+    "sku": "SNS0005",
+    "name": "Product Five",
+    "price": 5,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mattis convallis nibh id vulputate. Aliquam ornare eros et eros scelerisque, sed cursus elit dignissim. Praesent et lectus ultrices, imperdiet sapien.",
+    "image": "sns0005.png"
+  }
+]

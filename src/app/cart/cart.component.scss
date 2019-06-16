@@ -1,0 +1,29 @@
+.product-image img {
+  width: 100%;
+}
+
+div.qty, div.price {
+  text-align: center;
+  display: inline-block;
+}
+
+div.btn {
+  border: 1px solid #cfcfcf;
+  cursor: pointer;
+}
+
+div.item-qty {
+  border: none;
+  cursor: auto;
+}
+
+button.delete {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  font-size: 10px;
+}
+
+p.item-price {
+  margin: 10px 0 0 0;
+}

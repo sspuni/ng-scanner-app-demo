@@ -1,0 +1,23 @@
+<div class="main">
+  <div class="scanner" *ngIf="!hasResult">
+    <p>Place the target barcode into the following bounding box</p>
+    <zxing-scanner
+      [enable]="!hasResult"
+      [formats]="allowedFormats"
+      (scanComplete)="onScan('complete', $event)"
+      (scanError)="onScan('error', $event)"
+      (scanSuccess)="onScan('success', $event)"
+      (scanFailure)="onScan('failure', $event)"
+    ></zxing-scanner>
+  </div>
+  <div
+    *ngIf="hasResult"
+  >
+    <p *ngIf="!productLoaded">Loading product info...</p>
+    <p *ngIf="productLoaded"><strong>{{scannedProduct.sku}}</strong> -- {{scannedProduct.name}}</p>
+    <p [ngClass]="{ 'text-danger': hasError, 'text-success': !hasError }">{{ message }}</p>
+    <button *ngIf="!hasError && !addedToCart" class="btn btn-primary" (click)="addToCart()">Add to Cart</button>
+    <a *ngIf="!hasError && addedToCart" class="btn btn-primary" routerLink="/cart">Go to Cart</a>
+    <button class="btn btn-secondary" (click)="reset()">Re-Scan?</button>
+</div>
+</div>
